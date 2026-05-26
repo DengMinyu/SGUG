@@ -17,14 +17,14 @@
 
 ## Prerequisites
 
-*   Python $\ge$ 3.8
-*   PyTorch $\ge$ 1.10.0
+*   Python $\ge$ 3.10
+*   PyTorch $\ge$ 2.2.1
 *   Torchvision
 *   NumPy, OpenCV, SciPy
 
 ```bash
 # Clone this repository
-git clone https://github.com/DengMinyu/FDMM-SCFusion.git
+git clone https://github.com/DengMinyu/SGUG.git
 cd Fusion-Net
 
 # Install dependencies
