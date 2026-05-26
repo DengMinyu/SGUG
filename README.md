@@ -7,7 +7,7 @@
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 *   **Adaptive Mixture of Feature Experts:** Employs a pixel-level sparse routing mechanism to dynamically dispatch spatial, frequency (via FFT), and edge experts, maximizing the fidelity of sharp image textures and suppressing artifacts in flat regions.
 *   **Uncertainty-Guided Graph Construction:** Utilizes Laplacian uncertainty-driven adaptive sampling to anchor structural mutation regions, breaking the $\mathcal{O}(N^2)$ computational bottleneck of global graph construction for high-resolution images.
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 *   Python $\ge$ 3.8
 *   PyTorch $\ge$ 1.10.0
@@ -23,8 +23,8 @@
 *   NumPy, OpenCV, SciPy
 
 ```bash
-# Clone this repository (Anonymous link for double-blind review)
-git clone [https://github.com/DengMinyu/FDMM-SCFusion.git](https://github.com/DengMinyu/FDMM-SCFusion.git)
+# Clone this repository
+git clone https://github.com/DengMinyu/FDMM-SCFusion.git
 cd Fusion-Net
 
 # Install dependencies
